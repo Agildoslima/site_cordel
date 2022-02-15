@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-indent: 2%;
+    line-height: 1.5;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    color: white;
+    padding: 8%;
+    font-variant:small-caps ;
+}
+
+section{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    font-size: 2em;
+
+}
+section.sfundo{
+    background-color: white;
+    color: black;
+}
+section.cfundo{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.356);
+    background-color: black;
+    color: white;
+
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
